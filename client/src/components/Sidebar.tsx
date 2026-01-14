@@ -1,6 +1,6 @@
 import { Link, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
-import { Home, FolderGit2, Briefcase, Mail, Terminal, User } from "lucide-react";
+import { Home, FolderGit2, Award, Mail, Terminal, User } from "lucide-react";
 
 export function Sidebar() {
   const [location] = useLocation();
@@ -9,7 +9,7 @@ export function Sidebar() {
     { href: "/", icon: Home, label: "HOME" },
     { href: "/about", icon: User, label: "SOBRE" },
     { href: "/projects", icon: FolderGit2, label: "PROJETOS" },
-    { href: "/services", icon: Briefcase, label: "SERVIÇOS" },
+    { href: "/certifications", icon: Award, label: "CERTIFICADOS" },
     { href: "/contact", icon: Mail, label: "CONTATO" },
   ];
 
