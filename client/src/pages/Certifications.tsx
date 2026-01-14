@@ -1,6 +1,7 @@
 import { Layout } from "@/components/Layout";
 import { GlitchText } from "@/components/GlitchText";
-import { Award, Database, Cloud, Code, ShieldCheck, Terminal } from "lucide-react";
+import { Award, Database, Cloud, Code, ShieldCheck, Terminal, ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const certifications = [
   {
@@ -9,7 +10,8 @@ const certifications = [
     date: "2024",
     icon: Cloud,
     color: "text-orange-400",
-    description: "Conhecimento fundamental sobre a plataforma AWS, segurança, arquitetura e modelos de cobrança."
+    description: "Conhecimento fundamental sobre a plataforma AWS, segurança, arquitetura e modelos de cobrança.",
+    validationLink: "https://www.credly.com/earner/earned/badge/example-aws"
   },
   {
     title: "MYSQL DATABASE",
@@ -17,7 +19,8 @@ const certifications = [
     date: "2024",
     icon: Database,
     color: "text-blue-400",
-    description: "Modelagem de dados, consultas complexas SQL e administração de bancos de dados relacionais."
+    description: "Modelagem de dados, consultas complexas SQL e administração de bancos de dados relacionais.",
+    validationLink: "https://www.credly.com/earner/earned/badge/example-mysql"
   },
   {
     title: "GITHUB COPILOT",
@@ -25,7 +28,8 @@ const certifications = [
     date: "2024",
     icon: Terminal,
     color: "text-purple-400",
-    description: "Uso avançado de IA para pair programming, geração de código e otimização de fluxo de trabalho."
+    description: "Uso avançado de IA para pair programming, geração de código e otimização de fluxo de trabalho.",
+    validationLink: "https://www.credly.com/earner/earned/badge/example-copilot"
   },
   {
     title: "GITHUB CODESPACES",
@@ -33,7 +37,8 @@ const certifications = [
     date: "2024",
     icon: Code,
     color: "text-white",
-    description: "Configuração e uso de ambientes de desenvolvimento em nuvem para produtividade remota."
+    description: "Configuração e uso de ambientes de desenvolvimento em nuvem para produtividade remota.",
+    validationLink: "https://www.credly.com/earner/earned/badge/example-codespaces"
   },
   {
     title: "EXCEL AVANÇADO",
@@ -41,7 +46,8 @@ const certifications = [
     date: "2023",
     icon: Award,
     color: "text-green-400",
-    description: "Análise de dados complexa, macros, dashboards e automação de planilhas."
+    description: "Análise de dados complexa, macros, dashboards e automação de planilhas.",
+    validationLink: "https://www.credly.com/earner/earned/badge/example-excel"
   },
   {
     title: "ALGORITMOS E LÓGICA",
@@ -49,8 +55,9 @@ const certifications = [
     date: "2023",
     icon: ShieldCheck,
     color: "text-red-400",
-    description: "Fundamentos sólidos de programação, estruturas de dados e resolução de problemas computacionais."
-  }
+   description: "Fundamentos sólidos de programação, estruturas de dados e resolução de problemas computacionais.",
+    validationLink: "https://www.udemy.com/certificate/example-algo"
+  },
 ];
 
 export default function Certifications() {
@@ -90,9 +97,16 @@ export default function Certifications() {
               {cert.issuer}
             </p>
             
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <p className="text-sm text-muted-foreground leading-relaxed mb-6">
               {cert.description}
             </p>
+
+            <a href={cert.validationLink} target="_blank" rel="noopener noreferrer" className="inline-block">
+              <Button variant="outline" size="sm" className="text-xs font-mono border-primary/50 hover:bg-primary/10 hover:text-primary h-8">
+                <ExternalLink className="w-3 h-3 mr-2" />
+                VALIDAR_CREDENCIAL
+              </Button>
+            </a>
 
             {/* Tech lines decoration */}
             <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
