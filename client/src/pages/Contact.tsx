@@ -26,7 +26,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-mono text-sm text-muted-foreground mb-1">EMAIL</h3>
-                <p className="text-lg font-bold">contato@rafaelmello.dev</p>
+                <p className="text-lg font-bold">lucasrezende2013@hotmail.com</p>
               </div>
             </div>
 
@@ -36,7 +36,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-mono text-sm text-muted-foreground mb-1">TELEFONE</h3>
-                <p className="text-lg font-bold">+55 (11) 99999-9999</p>
+                <p className="text-lg font-bold">+55 31 98949 9376</p>
               </div>
             </div>
 
@@ -46,7 +46,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-mono text-sm text-muted-foreground mb-1">LOCALIZAÇÃO</h3>
-                <p className="text-lg font-bold">São Paulo, SP - Brasil</p>
+                <p className="text-lg font-bold">Betim, MG - Brasil</p>
                 <p className="text-sm text-muted-foreground">Disponível para trabalho remoto mundial</p>
               </div>
             </div>

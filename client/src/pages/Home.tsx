@@ -15,8 +15,8 @@ export default function Home() {
 
         <div className="space-y-2">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-none">
-            <GlitchText text="RAFAEL" /> <br />
-            <span className="text-muted-foreground">MELLO</span>
+            <GlitchText text="LUCAS" /> <br />
+            <span className="text-muted-foreground">HENRIQUE</span>
           </h1>
           <h2 className="text-xl md:text-2xl font-mono text-primary mt-4 flex items-center gap-2">
             <Terminal className="w-5 h-5" />
@@ -25,8 +25,8 @@ export default function Home() {
         </div>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed border-l-2 border-primary/50 pl-6">
-          Desenvolvedor focado em criar experiências digitais imersivas e funcionais.
-          Especialista em transformar código complexo em interfaces intuitivas.
+          Especialista em análise de dados com transição sólida para o desenvolvimento web. 
+          Focado em criar soluções eficientes com código limpo e tecnologias modernas.
         </p>
 
         <div className="flex flex-wrap gap-4 mt-4">
@@ -45,14 +45,11 @@ export default function Home() {
         </div>
 
         <div className="flex gap-6 mt-12 pt-8 border-t border-border w-full max-w-md">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://github.com/Lhrds" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Github className="w-8 h-8" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://linkedin.com/in/lucasrezende-dev" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Linkedin className="w-8 h-8" />
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-            <Instagram className="w-8 h-8" />
           </a>
         </div>
       </section>
@@ -60,13 +57,13 @@ export default function Home() {
       <section className="mt-24 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-card border border-border p-6 hover:border-primary transition-colors group">
           <Code2 className="w-10 h-10 text-primary mb-4 group-hover:scale-110 transition-transform" />
-          <h3 className="text-xl font-bold mb-2 font-mono">FRONT-END</h3>
-          <p className="text-muted-foreground text-sm">React, TypeScript, TailwindCSS, Next.js. Interfaces modernas e responsivas.</p>
+          <h3 className="text-xl font-bold mb-2 font-mono">FULL STACK</h3>
+          <p className="text-muted-foreground text-sm">React, Python, SQL, JavaScript. Desenvolvimento completo de soluções web.</p>
         </div>
         <div className="bg-card border border-border p-6 hover:border-primary transition-colors group">
           <Terminal className="w-10 h-10 text-primary mb-4 group-hover:scale-110 transition-transform" />
-          <h3 className="text-xl font-bold mb-2 font-mono">BACK-END</h3>
-          <p className="text-muted-foreground text-sm">Node.js, Python, PostgreSQL, APIs RESTful. Sistemas robustos e escaláveis.</p>
+          <h3 className="text-xl font-bold mb-2 font-mono">DATA & AI</h3>
+          <p className="text-muted-foreground text-sm">Pandas, Python, Integração com IA (Copilot, ChatGPT). Análise de dados e automação.</p>
         </div>
         <div className="bg-card border border-border p-6 hover:border-primary transition-colors group">
           <Cpu className="w-10 h-10 text-primary mb-4 group-hover:scale-110 transition-transform" />

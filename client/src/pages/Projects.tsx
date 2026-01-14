@@ -6,43 +6,43 @@ import { ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "E-COMMERCE SUNRIO",
-    category: "FULL STACK",
-    image: "/images/project_ecommerce.png",
-    description: "Plataforma completa de e-commerce com painel administrativo, gestão de estoque e pagamentos integrados.",
-    tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
-    link: "#",
-    github: "#"
+    title: "WEATHERWISE",
+    category: "FRONT END",
+    image: "/images/project_dashboard.png",
+    description: "Aplicação moderna para consulta meteorológica em tempo real com integração de API.",
+    tech: ["JavaScript", "API Integration", "CSS3"],
+    link: "https://github.com/Lhrds/WeatherWise---Aplicacao-de-Clima",
+    github: "https://github.com/Lhrds/WeatherWise---Aplicacao-de-Clima"
   },
   {
     id: 2,
-    title: "DASHBOARD ANALYTICS",
-    category: "FRONT END",
-    image: "/images/project_dashboard.png",
-    description: "Dashboard interativo para visualização de dados em tempo real com gráficos complexos e filtros avançados.",
-    tech: ["Vue.js", "D3.js", "TailwindCSS"],
-    link: "#",
-    github: "#"
+    title: "CHATBOT INTELIGENTE",
+    category: "AI & PYTHON",
+    image: "/images/hero_bg_tech.png",
+    description: "Bot interativo desenvolvido em Python com processamento de linguagem natural (NLP) para automação.",
+    tech: ["Python", "NLP", "Automation"],
+    link: "https://github.com/Lhrds/ChatBot",
+    github: "https://github.com/Lhrds/ChatBot"
   },
   {
     id: 3,
-    title: "LANDING PAGE FIORELLE",
-    category: "UI/UX DESIGN",
-    image: "/images/project_landing.png",
-    description: "Landing page de alta conversão para lançamento de produto, com animações suaves e SEO otimizado.",
-    tech: ["Next.js", "Framer Motion", "GSAP"],
-    link: "#",
-    github: "#"
+    title: "SISTEMA DE IMPOSTOS",
+    category: "BACK END",
+    image: "/images/project_ecommerce.png",
+    description: "Sistema completo para automação de lançamentos contábeis e gestão tributária eficiente.",
+    tech: ["PHP", "MySQL", "Database"],
+    link: "https://github.com/Lhrds/Sistema-de-Impostos",
+    github: "https://github.com/Lhrds/Sistema-de-Impostos"
   },
   {
     id: 4,
-    title: "PORTAL DO CONTRIBUINTE",
-    category: "GOV TECH",
-    image: "/images/hero_bg_tech.png",
-    description: "Sistema para prefeituras facilitarem o acesso a serviços públicos digitais para os cidadãos.",
-    tech: ["Angular", "Java", "Oracle"],
-    link: "#",
-    github: "#"
+    title: "HTML2PDF CONVERTER",
+    category: "UTILITY",
+    image: "/images/project_landing.png",
+    description: "Ferramenta prática para conversão instantânea de páginas web em documentos PDF formatados.",
+    tech: ["JavaScript", "HTML5", "PDF Generation"],
+    link: "https://github.com/Lhrds/HTML2PDF-Converter",
+    github: "https://github.com/Lhrds/HTML2PDF-Converter"
   }
 ];
 

@@ -12,7 +12,7 @@ export default function About() {
             <div className="absolute inset-0 bg-card border border-border overflow-hidden grayscale hover:grayscale-0 transition-all duration-500">
               <img 
                 src="/images/avatar_cyberpunk.png" 
-                alt="Rafael Mello Avatar" 
+                alt="Lucas Henrique Avatar" 
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
@@ -21,8 +21,8 @@ export default function About() {
                   <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                   SYSTEM_ONLINE
                 </div>
-                <h3 className="text-2xl font-bold font-mono">RAFAEL MELLO</h3>
-                <p className="text-muted-foreground text-sm">Level 25 • São Paulo, BR</p>
+                <h3 className="text-2xl font-bold font-mono">LUCAS HENRIQUE</h3>
+                <p className="text-muted-foreground text-sm">Level 26 • Betim, MG</p>
               </div>
             </div>
           </div>
@@ -34,9 +34,9 @@ export default function About() {
               <GlitchText text="SOBRE_O_DEV" />
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Olá, sou um desenvolvedor front-end apaixonado por criar interfaces que desafiam o convencional. 
-              Minha jornada começou com a curiosidade de entender como as coisas funcionam por trás da tela, 
-              e hoje transformo essa curiosidade em soluções digitais robustas.
+              Especialista em análise de dados com transição sólida para o desenvolvimento web. 
+              Focado em criar soluções eficientes com código limpo e tecnologias modernas. 
+              Apaixonado por resolver problemas complexos através da tecnologia e inteligência artificial.
             </p>
           </div>
 
@@ -48,19 +48,19 @@ export default function About() {
               </h3>
               <ul className="space-y-2 text-sm text-muted-foreground font-mono">
                 <li className="flex items-center gap-2">
-                  <span className="w-1 h-1 bg-primary" /> JavaScript (ES6+) / TypeScript
+                  <span className="w-1 h-1 bg-primary" /> Python / Pandas / SQL
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1 h-1 bg-primary" /> React / Next.js / Vue
+                  <span className="w-1 h-1 bg-primary" /> JavaScript / React / HTML5 / CSS3
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1 h-1 bg-primary" /> TailwindCSS / Styled Components
+                  <span className="w-1 h-1 bg-primary" /> Git / GitHub / Codespaces
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1 h-1 bg-primary" /> Node.js / Express
+                  <span className="w-1 h-1 bg-primary" /> MySQL / Database Management
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1 h-1 bg-primary" /> Git / CI/CD / Docker
+                  <span className="w-1 h-1 bg-primary" /> AI Tools (Copilot, ChatGPT, Manus)
                 </li>
               </ul>
             </div>
@@ -72,19 +72,19 @@ export default function About() {
               </h3>
               <ul className="space-y-2 text-sm text-muted-foreground font-mono">
                 <li className="flex items-center gap-2">
+                  <span className="w-1 h-1 bg-primary" /> Análise de Dados
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1 h-1 bg-primary" /> Code Review & Clean Code
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1 h-1 bg-primary" /> Metodologias Ágeis
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1 h-1 bg-primary" /> Documentação Técnica
+                </li>
+                <li className="flex items-center gap-2">
                   <span className="w-1 h-1 bg-primary" /> Resolução de Problemas
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="w-1 h-1 bg-primary" /> Comunicação Clara
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="w-1 h-1 bg-primary" /> Aprendizado Contínuo
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="w-1 h-1 bg-primary" /> Trabalho em Equipe
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="w-1 h-1 bg-primary" /> Atenção aos Detalhes
                 </li>
               </ul>
             </div>
@@ -98,21 +98,23 @@ export default function About() {
             <div className="space-y-6">
               <div className="relative pl-6 border-l border-border">
                 <div className="absolute left-[-5px] top-0 w-2.5 h-2.5 bg-primary rounded-full" />
-                <span className="text-xs font-mono text-primary mb-1 block">2023 - PRESENTE</span>
-                <h4 className="font-bold">Senior Frontend Developer</h4>
-                <p className="text-sm text-muted-foreground">Tech Solutions Inc.</p>
+                <span className="text-xs font-mono text-primary mb-1 block">2019 - PRESENTE</span>
+                <h4 className="font-bold">Assistente de Contabilidade</h4>
+                <p className="text-sm text-muted-foreground">GT Serviços Contábeis</p>
+                <p className="text-xs text-muted-foreground mt-1">Análise estratégica de dados financeiros e automação de fluxos.</p>
               </div>
               <div className="relative pl-6 border-l border-border">
                 <div className="absolute left-[-5px] top-0 w-2.5 h-2.5 bg-muted rounded-full" />
-                <span className="text-xs font-mono text-muted-foreground mb-1 block">2021 - 2023</span>
-                <h4 className="font-bold">Full Stack Developer</h4>
-                <p className="text-sm text-muted-foreground">Digital Agency X</p>
+                <span className="text-xs font-mono text-muted-foreground mb-1 block">2015 - 2018</span>
+                <h4 className="font-bold">Auxiliar de Escritório</h4>
+                <p className="text-sm text-muted-foreground">Klabin S.A</p>
+                <p className="text-xs text-muted-foreground mt-1">Gestão de infraestrutura documental e suporte administrativo.</p>
               </div>
               <div className="relative pl-6 border-l border-border">
                 <div className="absolute left-[-5px] top-0 w-2.5 h-2.5 bg-muted rounded-full" />
-                <span className="text-xs font-mono text-muted-foreground mb-1 block">2019 - 2021</span>
-                <h4 className="font-bold">Junior Web Developer</h4>
-                <p className="text-sm text-muted-foreground">Freelancer</p>
+                <span className="text-xs font-mono text-muted-foreground mb-1 block">2023 - 2025</span>
+                <h4 className="font-bold">Formação: Análise e Des. de Sistemas</h4>
+                <p className="text-sm text-muted-foreground">Proz Educação</p>
               </div>
             </div>
           </div>
