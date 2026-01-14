@@ -1,6 +1,7 @@
 import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { GlitchText } from "@/components/GlitchText";
+import { TypewriterText } from "@/components/TypewriterText";
 import { Link } from "wouter";
 import { Github, Linkedin, Instagram, ArrowRight, Code2, Terminal, Cpu } from "lucide-react";
 
@@ -15,8 +16,8 @@ export default function Home() {
 
         <div className="space-y-2">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-none">
-            <GlitchText text="LUCAS" /> <br />
-            <span className="text-muted-foreground">HENRIQUE</span>
+            <TypewriterText text="LUCAS" className="text-primary" /> <br />
+            <TypewriterText text="HENRIQUE" startDelay={1500} className="text-muted-foreground" />
           </h1>
           <h2 className="text-xl md:text-2xl font-mono text-primary mt-4 flex items-center gap-2">
             <Terminal className="w-5 h-5" />
