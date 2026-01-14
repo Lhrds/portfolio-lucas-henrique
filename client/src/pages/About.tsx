@@ -1,6 +1,7 @@
 import { Layout } from "@/components/Layout";
 import { GlitchText } from "@/components/GlitchText";
-import { Terminal, Code, Cpu, Globe } from "lucide-react";
+import { Terminal, Code, Cpu, Globe, Download } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function About() {
   return (
@@ -33,11 +34,18 @@ export default function About() {
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               <GlitchText text="SOBRE_O_DEV" />
             </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
               Especialista em análise de dados com transição sólida para o desenvolvimento web. 
               Focado em criar soluções eficientes com código limpo e tecnologias modernas. 
               Apaixonado por resolver problemas complexos através da tecnologia e inteligência artificial.
             </p>
+            
+            <a href="/curriculo.pdf" download="Lucas_Henrique_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-mono group">
+                <Download className="mr-2 w-4 h-4 group-hover:animate-bounce" />
+                DOWNLOAD_CV
+              </Button>
+            </a>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
