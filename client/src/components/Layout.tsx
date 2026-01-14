@@ -1,5 +1,6 @@
 import { Sidebar } from "./Sidebar";
 import { ReactNode } from "react";
+import { Github, Linkedin } from "lucide-react";
 
 interface LayoutProps {
   children: ReactNode;
@@ -22,6 +23,36 @@ export function Layout({ children }: LayoutProps) {
         <div className="relative z-10 container py-8 md:py-12 animate-in fade-in duration-500">
           {children}
         </div>
+
+        {/* Footer with Social Links */}
+        <footer className="relative z-10 border-t border-border mt-auto">
+          <div className="container py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="text-xs font-mono text-muted-foreground">
+              © 2026 LUCAS HENRIQUE. ALL RIGHTS RESERVED.
+            </div>
+            
+            <div className="flex items-center gap-6">
+              <a 
+                href="https://github.com/Lhrds" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200"
+              >
+                <Github className="w-5 h-5" />
+                <span className="sr-only">GitHub</span>
+              </a>
+              <a 
+                href="https://linkedin.com/in/lucasrezende-dev" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200"
+              >
+                <Linkedin className="w-5 h-5" />
+                <span className="sr-only">LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </footer>
       </main>
     </div>
   );
